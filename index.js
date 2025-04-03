@@ -26,7 +26,7 @@ function playRound() {
 
   alert(`Computer chose: ${computerChoice}`);
 
-  const result = determineWinner(playerChoice, computerChoice);
+  const result = findWinner(playerChoice, computerChoice);
   displayResult(result, playerChoice, computerChoice);
 
   displayScore();
@@ -66,7 +66,7 @@ function getComputerChoice() {
   return choices[randomIndex];
 }
 
-function determineWinner(playerChoice, computerChoice) {
+function findWinner(playerChoice, computerChoice) {
   if (playerChoice === computerChoice) {
     return "tie";
   } else if (
