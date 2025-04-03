@@ -27,12 +27,6 @@ A JavaScript game where you play the classic Rock-Paper-Scissors against the com
 - **Paper beats Rock**: Paper covers Rock
 - **Same choices**: Results in a tie
 
-## Game Options
-
-- **Cancel Anytime**: You can exit the game by clicking "Cancel" on any prompt
-- **Play Again**: After each round, you can choose to play another round
-- **Score Tracking**: The game keeps track of your wins vs. the computer's wins
-
 ## How to Use
 
 1. Clone this repository
